@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+#h1 {
+    font-family: 'Creepster', cursive;
+}
+
+#p1 {
+    font-weight: bold;
+}
+
+
+
+#card-container {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+#new-game {
+    margin-top: 10px;
+    background-color: #5B42F3;
+}
+
+
+#new-game, #p1, #h1 {
+    color: whitesmoke;
+}
+
+#submit {
+    background-color: #AF40FF;
+}
+
+
+#guess-input {
+    background-color: whitesmoke;
+}
+
+
+
+#result {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+.card {
+    width: 500px;
+    height: 355px;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+}
